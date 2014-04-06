@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/vagrant/work/taskapp/app/views/projects'
+let g:netrw_dirhist_2='/home/vagrant/work/taskapp/app/views'
+let g:netrw_dirhist_3='/home/vagrant/work/taskapp/app/controllers'
+let g:netrw_dirhist_4='/home/vagrant/.gem/specs/rubygems.org%80'
+let g:netrw_dirhist_5='/home/vagrant/.vim/plugin/plugin/neocomplcache'
+let g:netrw_dirhist_6='/home/vagrant/work/business_card'
+let g:netrw_dirhist_7='/home/vagrant/.vim'
+let g:netrw_dirhist_8='/home/vagrant/rubyWork'
+let g:netrw_dirhist_9='/home/vagrant/work/business_card'
