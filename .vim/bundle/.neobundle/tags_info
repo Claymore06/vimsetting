@@ -1,6 +1,6 @@
 neobundle.vim
-neocomplcache-rsense.vim
-neocomplcache.vim
+neocomplete-rsense.vim
+neocomplete.vim
 nerdtree
 rails.vim
 ruby-matchit

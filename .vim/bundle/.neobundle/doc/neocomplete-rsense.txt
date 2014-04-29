@@ -1,5 +1,5 @@
-*neocomplcache-rsense.txt*
-		The neocomplcache source for RSense
+*neocomplete-rsense.txt*
+		The neocomplete source for RSense
 
 Version: 0.1
 Author: Shougo <Shougo.Matsu@gmail.com>
@@ -23,19 +23,19 @@ License: MIT license  {{{
     SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 }}}
 
-CONTENTS			*neocomplcache-rsense-contents*
+CONTENTS			*neocomplete-rsense-contents*
 
-Introduction		|neocomplcache-rsense-introduction|
-Install			|neocomplcache-rsense-install|
-Interface		|neocomplcache-rsense-interface|
-  Commands		  |neocomplcache-rsense-commands|
-  Variables		  |neocomplcache-rsense-variables|
-Examples		|neocomplcache-rsense-examples|
-FAQ			|neocomplcache-rsense-faq|
-Changelog		|neocomplcache-rsense-changelog|
+Introduction		|neocomplete-rsense-introduction|
+Install			|neocomplete-rsense-install|
+Interface		|neocomplete-rsense-interface|
+  Commands		  |neocomplete-rsense-commands|
+  Variables		  |neocomplete-rsense-variables|
+Examples		|neocomplete-rsense-examples|
+FAQ			|neocomplete-rsense-faq|
+Changelog		|neocomplete-rsense-changelog|
 
 ==============================================================================
-INTRODUCTION				*neocomplcache-rsense-introduction*
+INTRODUCTION				*neocomplete-rsense-introduction*
 
 Todo:
 
@@ -54,14 +54,14 @@ Features:
 	RUBYEOF
 <
 ==============================================================================
-INSTALL						*neocomplcache-rsense-install*
+INSTALL						*neocomplete-rsense-install*
 
 1: Install RSense.
 
 http://cx4a.org/software/rsense/
 
-2: Install neocomplcache.
-https://github.com/Shougo/neocomplcache
+2: Install neocomplete.
+https://github.com/Shougo/neocomplete
 
 3: Install vimproc.
 https://github.com/Shougo/vimproc
@@ -70,32 +70,32 @@ https://github.com/Shougo/vimproc
    (usually ~/.vim/ or Program Files/Vim/vimfiles on Windows).
 
 ==============================================================================
-INTERFACE				*neocomplcache-rsense-interface*
+INTERFACE				*neocomplete-rsense-interface*
 
 ------------------------------------------------------------------------------
-COMMANDS 					*neocomplcache-rsense-commands*
+COMMANDS 					*neocomplete-rsense-commands*
 
 ------------------------------------------------------------------------------
-VARIABLES 				*neocomplcache-rsense-variables*
+VARIABLES 				*neocomplete-rsense-variables*
 
-g:neocomplcache#sources#rsense#home_directory
-				*g:neocomplcache#sources#rsense#home_directory*
-		It is $RSENSE_HOME value for neocomplcache-rsense.
-		neocomplcache-rsense searches "rsense" binary from it.
+g:neocomplete#sources#rsense#home_directory
+				*g:neocomplete#sources#rsense#home_directory*
+		It is $RSENSE_HOME value for neocomplete-rsense.
+		neocomplete-rsense searches "rsense" binary from it.
 
 		The default value is same to $RSENSE_HOME.
 
 ------------------------------------------------------------------------------
-FUNCTIONS				*neocomplcache-rsense-functions*
+FUNCTIONS				*neocomplete-rsense-functions*
 
 ==============================================================================
-EXAMPLES					*neocomplcache-rsense-examples*
+EXAMPLES					*neocomplete-rsense-examples*
 >
 	" Set $RSENSE_HOME path.
-	let g:neocomplcache#sources#rsense#home_directory = '/opt/rsense'
+	let g:neocomplete#sources#rsense#home_directory = '/opt/rsense'
 <
 ==============================================================================
-FAQ						*neocomplcache-rsense-faq*
+FAQ						*neocomplete-rsense-faq*
 
 Q: I got all my installations and settings done, but complements aren't showing, why?
 A: Check if rsense is working, by executing
@@ -112,10 +112,10 @@ A: Check if rsense is working, by executing
    $ sudo rm /tmp/rsense-socket
 
 ==============================================================================
-CHANGELOG			*neocomplcache-rsense-changelog*
+CHANGELOG			*neocomplete-rsense-changelog*
 
 2013-03-23
-- Fixed for neocomplcache ver.8.
+- Fixed for neocomplete ver.8.
 - Improved file output.
 
 2012-11-17
